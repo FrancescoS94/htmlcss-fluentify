@@ -12,6 +12,8 @@
 /* SECTION 1 */
 .blu {
     background-color: #0c325a;
+    background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    background-size: cover;
     /* DA CANCELLARE */
     height: 500px;
 }
@@ -20,16 +22,16 @@
     width: 80%;
     margin: 0 auto;
     /* DA CANCELLARE */
-    background-color: orange;
+    /* background-color: orange; */
     height: 500px;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 nav {
     height: 70px;
     padding: 10px 0px;
     /* DA CANCELLARE */
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 ul li{
@@ -89,7 +91,7 @@ h1 {
 }
 /* SECTION 2 */
 .grigio {
-    background-color: gray;
+    background-color: rgba(211,211,211,1);
         /* DA CANCELLARE */
     height: 150px;
 }
@@ -106,7 +108,7 @@ h3 {
 }
 
 p {
-    color: #A9A9A9;
+    color: rgba(128,128,128,1);
 }
 /* SECTION 3 */
 .bianco {
