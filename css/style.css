@@ -9,7 +9,7 @@
     display: table;
     clear: both;
 }
-
+/* SECTION 1 */
 .blu {
     background-color: #0c325a;
     /* DA CANCELLARE */
@@ -71,12 +71,44 @@ ul li{
     background-color: #7fb802;
 }
 
+h1 {
+    color: white;
+    font-size: 300%;
+    padding-top: 130px;
+    margin-right: 700px;
+}
+
+#struttura2 {
+    color: white;
+    /* FORSE DA CANCELLARE IL BORDER */
+    border: 0px solid #7fb802;
+    border-radius: 5px;
+    padding: 15px 10px;
+    background-color: #7fb802;
+    margin-top: 30px;
+}
+/* SECTION 2 */
 .grigio {
     background-color: gray;
         /* DA CANCELLARE */
     height: 150px;
 }
 
+.centro {
+    text-align: center;
+    padding: 38px;
+    line-height: 1.8;
+}
+
+h3 {
+    color: black;
+    font-size: 150%
+}
+
+p {
+    color: #A9A9A9;
+}
+/* SECTION 3 */
 .bianco {
     background-color: white;
         /* DA CANCELLARE */
@@ -88,4 +120,46 @@ ul li{
     height: 100%;
     border: 1px solid white;
     float: left;
+    text-align: center;
+    position: relative;
+}
+
+.img2 {
+    width: 150px;
+    height: 170px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+h2 {
+    color: #7fb802;
+    position: absolute;
+    top: 50%;
+    margin: 0 50px;
+}
+
+.img3 {
+    width: 230px;
+    height: 250px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.img4 {
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    transform:translateX(-40%);
+}
+
+.p {
+    position: absolute;
+    top: 70%;
+    margin: 0 50px;
 }
