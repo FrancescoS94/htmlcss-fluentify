@@ -3,3 +3,89 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.blu {
+    background-color: #0c325a;
+    /* DA CANCELLARE */
+    height: 500px;
+}
+
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+    /* DA CANCELLARE */
+    background-color: orange;
+    height: 500px;
+    border: 5px solid white;
+}
+
+nav {
+    height: 70px;
+    padding: 10px 0px;
+    /* DA CANCELLARE */
+    background-color: violet;
+}
+
+ul li{
+    color: white;
+    line-height: 50px;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.ul1 {
+    float: left;
+}
+
+.ul2 {
+    float: right;
+}
+
+.img1 {
+    float: left;
+    padding-right: 60px;
+}
+
+#login {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px 22px;
+    background-color: #0c325a;
+}
+
+#struttura {
+    color: white;
+    /* FORSE DA CANCELLARE IL BORDER */
+    border: 0px solid #7fb802;
+    border-radius: 5px;
+    padding: 7px 7px;
+    background-color: #7fb802;
+}
+
+.grigio {
+    background-color: gray;
+        /* DA CANCELLARE */
+    height: 150px;
+}
+
+.bianco {
+    background-color: white;
+        /* DA CANCELLARE */
+    height: 500px;
+}
+
+.box {
+    width: 33.3333%;
+    height: 100%;
+    border: 1px solid white;
+    float: left;
+}
