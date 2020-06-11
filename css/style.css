@@ -12,14 +12,20 @@
 /* SECTION 1 */
 .blu {
     background-color: #0c325a;
+}
+
+.sfondo {
     background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
-    background-size: cover;
+    background-size: 65% auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .conteiner {
     width: 80%;
     margin: 0 auto;
     height: 500px;
+    position: relative;
 }
 
 nav {
@@ -65,11 +71,17 @@ ul li{
     background-color: #7fb802;
 }
 
+.banner {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
 h1 {
     color: white;
     font-size: 300%;
-    padding-top: 130px;
-    margin-right: 700px;
 }
 
 #struttura2 {
@@ -103,55 +115,31 @@ p {
 /* SECTION 3 */
 .bianco {
     background-color: white;
-        /* DA CANCELLARE */
-    /* height: 500px; */
+}
+
+.boxes {
+    padding: 40px 0;
 }
 
 .box {
     width: 33.3333%;
-    height: 100%;
-    border: 1px solid white;
     float: left;
     text-align: center;
-    position: relative;
+    padding: 0 50px;
 }
 
-.img2 {
-    width: 150px;
-    height: 170px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform:translateX(-50%);
+.box img {
+    height: 120px;
 }
 
-h2 {
+.box h2 {
     color: #7fb802;
-    position: absolute;
-    top: 50%;
-    margin: 0 50px;
+    margin-left: 20px 0;
+    line-height: 30px;
 }
 
-.img3 {
-    width: 230px;
-    height: 250px;
-    position: absolute;
-    top: 2%;
-    left: 50%;
-    transform:translateX(-50%);
-}
-
-.img4 {
-    width: 180px;
-    height: 200px;
-    position: absolute;
-    top: 8%;
-    left: 40%;
-    transform:translateX(-40%);
-}
-
-.p {
-    position: absolute;
-    top: 70%;
-    margin: 0 50px;
+.box hr {
+    width: 70px;
+    margin: 30px auto;
+    line-height: 1.6;
 }
